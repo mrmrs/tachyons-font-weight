@@ -8,6 +8,46 @@ npm install --save-dev tachyons-font-weight
 ```
 or download the css on github and include in your project.
 
+## The Code
+```
+
+/*
+
+   FONT WEIGHT
+
+*/
+
+.fwn { font-weight: normal; }
+.b   { font-weight: bold; }
+.fw1 { font-weight: 100; }
+.fw4 { font-weight: 400; }
+.fw9 { font-weight: 900; }
+
+@include break(not-small) {
+  .fwn-ns { font-weight: normal; }
+  .b-ns   { font-weight: bold; }
+  .fw1-ns { font-weight: 100; }
+  .fw4-ns { font-weight: 400; }
+  .fw9-ns { font-weight: 900; }
+}
+
+@include break(medium) {
+  .fwn-m { font-weight: normal; }
+  .b-m   { font-weight: bold; }
+  .fw1-m { font-weight: 100; }
+  .fw4-m { font-weight: 400; }
+  .fw9-m { font-weight: 900; }
+}
+
+@include break(large) {
+  .fwn-l { font-weight: normal; }
+  .b-l   { font-weight: bold; }
+  .fw1-l { font-weight: 100; }
+  .fw4-l { font-weight: 400; }
+  .fw9-l { font-weight: 900; }
+}
+```
+
 ## Author
 
 [http://mrmrs.cc - Entire internet gateway to all things mrmrs](http://mrmrs.cc)
