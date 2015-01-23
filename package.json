@@ -1,12 +1,12 @@
 {
   "name": "tachyons-font-weight",
   "version": "0.3.0",
-  "style": "font_weight.css",
+  "style": "tachyons-font-weight.css",
   "homepage": "http://mrmrs.io/tachyons-font-weight",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "rework",
     "css",
     "rwd",
     "design",
