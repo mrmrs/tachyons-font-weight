@@ -4,7 +4,7 @@
 
 */
 
-.fwn {
+.normal {
   font-weight: normal;
 }
 
@@ -12,20 +12,32 @@
   font-weight: bold;
 }
 
-.fw1 {
+.thin {
   font-weight: 100;
 }
 
-.fw4 {
+.book {
   font-weight: 400;
 }
 
-.fw9 {
+.semibold {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.heavy {
+  font-weight: 700;
+}
+
+.ultrabold {
   font-weight: 900;
 }
 
 @media screen and (min-width: 48em) {
-  .fwn-ns {
+  .normal-ns {
     font-weight: normal;
   }
 
@@ -33,21 +45,33 @@
     font-weight: bold;
   }
 
-  .fw1-ns {
+  .thin-ns {
     font-weight: 100;
   }
 
-  .fw4-ns {
+  .book-ns {
     font-weight: 400;
   }
 
-  .fw9-ns {
+  .semibold-ns {
+    font-weight: 500;
+  }
+
+  .bold-ns {
+    font-weight: 600;
+  }
+
+  .heavy-ns {
+    font-weight: 700;
+  }
+
+  .ultrabold-ns {
     font-weight: 900;
   }
 }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
-  .fwn-m {
+  .normal-m {
     font-weight: normal;
   }
 
@@ -55,21 +79,33 @@
     font-weight: bold;
   }
 
-  .fw1-m {
+  .thin-m {
     font-weight: 100;
   }
 
-  .fw4-m {
+  .book-m {
     font-weight: 400;
   }
 
-  .fw9-m {
+  .semibold-m {
+    font-weight: 500;
+  }
+
+  .bold-m {
+    font-weight: 600;
+  }
+
+  .heavy-m {
+    font-weight: 700;
+  }
+
+  .ultrabold-m {
     font-weight: 900;
   }
 }
 
 @media screen and (min-width: 64em) {
-  .fwn-l {
+  .normal-l {
     font-weight: normal;
   }
 
@@ -77,15 +113,27 @@
     font-weight: bold;
   }
 
-  .fw1-l {
+  .thin-l {
     font-weight: 100;
   }
 
-  .fw4-l {
+  .book-l {
     font-weight: 400;
   }
 
-  .fw9-l {
+  .semibold-l {
+    font-weight: 500;
+  }
+
+  .bold-l {
+    font-weight: 600;
+  }
+
+  .heavy-l {
+    font-weight: 700;
+  }
+
+  .ultrabold-l {
     font-weight: 900;
   }
 }
