@@ -1,53 +1,69 @@
-# TACHYONS-FONT-WEIGHT
+# tachyons-font-weight
+2.1.0
 
-http://tachyons.io
-
-Work In Progress. Pull requests and open issues welcome.
+Performance based css module.
 
 ## Install
 ```
 npm install --save-dev tachyons-font-weight
 ```
-or download the css on github and include in your project.
+
+or download the css on github and include in your project:
+
+```
+git clone git@github.com:mrmrs/tachyons-font-weight
+```
 
 ## The Code
 ```
-
 /*
 
    FONT WEIGHT
 
 */
 
-.fwn { font-weight: normal; }
-.b   { font-weight: bold; }
-.fw1 { font-weight: 100; }
-.fw4 { font-weight: 400; }
-.fw9 { font-weight: 900; }
+.normal   { font-weight: normal; }
+.b        { font-weight: bold; }
+.thin     { font-weight: 100; }
+.book     { font-weight: 400; }
+.semibold { font-weight: 500; }
+.bold     { font-weight: 600; }
+.heavy    { font-weight: 700; }
+.ultrabold{ font-weight: 900; }
 
-@include break(not-small) {
-  .fwn-ns { font-weight: normal; }
-  .b-ns   { font-weight: bold; }
-  .fw1-ns { font-weight: 100; }
-  .fw4-ns { font-weight: 400; }
-  .fw9-ns { font-weight: 900; }
+@media screen and (min-width: 48em) {
+  .normal-ns    { font-weight: normal; }
+  .b-ns         { font-weight: bold; }
+  .thin-ns      { font-weight: 100; }
+  .book-ns      { font-weight: 400; }
+  .semibold-ns  { font-weight: 500; }
+  .bold-ns      { font-weight: 600; }
+  .heavy-ns     { font-weight: 700; }
+  .ultrabold-ns { font-weight: 900; }
 }
 
-@include break(medium) {
-  .fwn-m { font-weight: normal; }
-  .b-m   { font-weight: bold; }
-  .fw1-m { font-weight: 100; }
-  .fw4-m { font-weight: 400; }
-  .fw9-m { font-weight: 900; }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .normal-m    { font-weight: normal; }
+  .b-m         { font-weight: bold; }
+  .thin-m      { font-weight: 100; }
+  .book-m      { font-weight: 400; }
+  .semibold-m  { font-weight: 500; }
+  .bold-m      { font-weight: 600; }
+  .heavy-m     { font-weight: 700; }
+  .ultrabold-m { font-weight: 900; }
 }
 
-@include break(large) {
-  .fwn-l { font-weight: normal; }
-  .b-l   { font-weight: bold; }
-  .fw1-l { font-weight: 100; }
-  .fw4-l { font-weight: 400; }
-  .fw9-l { font-weight: 900; }
+@media screen and (min-width: 64em) {
+  .normal-l    { font-weight: normal; }
+  .b-l         { font-weight: bold; }
+  .thin-l      { font-weight: 100; }
+  .book-l      { font-weight: 400; }
+  .semibold-l  { font-weight: 500; }
+  .bold-l      { font-weight: 600; }
+  .heavy-l     { font-weight: 700; }
+  .ultrabold-l { font-weight: 900; }
 }
+
 ```
 
 ## Author
