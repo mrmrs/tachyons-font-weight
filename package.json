@@ -2,15 +2,15 @@
   "name": "tachyons-font-weight",
   "version": "4.0.0",
   "style": "tachyons-font-weight.css",
-  "homepage": "http://github.com/mrmrs/tachyons-font-weight",
+  "homepage": "http://github.com/tachyons-css/tachyons-font-weight",
   "description": "Performance based css module.",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-font-weight.git"
+    "url": "http://github.com/tachyons-css/tachyons-font-weight.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-font-weight/issues",
+    "url": "https://github.com/tachyons-css/tachyons-font-weight/issues",
     "email": "hi@mrmrs.cc"
   },
   "author": {
