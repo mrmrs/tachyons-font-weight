@@ -1,4 +1,4 @@
-# tachyons-font-weight 3.0.1
+# tachyons-font-weight 4.0.2
 
 Performance based css module.
 
