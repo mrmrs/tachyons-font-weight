@@ -1,6 +1,6 @@
 {
   "name": "tachyons-font-weight",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "style": "src/tachyons-font-weight.css",
   "description": "Performance based css module.",
   "keywords": [
