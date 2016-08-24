@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-301 | 44 | 44
+299 | 44 | 44
 ---|---|---
 bytes | selectors | declarations
 
@@ -90,7 +90,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .fw7 { font-weight: 700; }
 .fw8 { font-weight: 800; }
 .fw9 { font-weight: 900; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .normal-ns { font-weight: normal; }
  .b-ns { font-weight: bold; }
  .fw1-ns { font-weight: 100; }
@@ -103,7 +103,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .fw8-ns { font-weight: 800; }
  .fw9-ns { font-weight: 900; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .normal-m { font-weight: normal; }
  .b-m { font-weight: bold; }
  .fw1-m { font-weight: 100; }
@@ -116,7 +116,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .fw8-m { font-weight: 800; }
  .fw9-m { font-weight: 900; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .normal-l { font-weight: normal; }
  .b-l { font-weight: bold; }
  .fw1-l { font-weight: 100; }
