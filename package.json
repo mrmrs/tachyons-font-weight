@@ -2,6 +2,7 @@
   "name": "tachyons-font-weight",
   "version": "5.0.3",
   "style": "src/tachyons-font-weight.css",
+  "main": "src/tachyons-font-weight.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
